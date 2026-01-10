@@ -1,0 +1,28 @@
+name: contact
+description: "Design a smooth and user-friendly mobile app that helps users manage contacts efficiently"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+dependencies:
+  lottie: ^3.1.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.1
+  auto_size_text: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+      - assets/images/
+      - assets/lottie/
