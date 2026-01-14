@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../utils/app_colors.dart';
 import '../utils/contact.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-
 class ContactsListWidget extends StatelessWidget {
   final List<Contact> contacts;
   final Function(int) onDelete;
